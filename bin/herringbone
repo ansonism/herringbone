@@ -18,7 +18,7 @@ Example usage:
 
 `herringbone flatten -i /path/to/input/directory -o /path/to/output/directory`
 
-`herringbone load [--hive] [-u] -d db_name -t table -p /path/to/parquet/directory`
+`herringbone load [--hive] [-u] [--nocompute-stats] -d db_name -t table -p /path/to/parquet/directory`
 
 `herringbone tsv -i /path/to/input/directory -o /path/to/output/directory`
 
